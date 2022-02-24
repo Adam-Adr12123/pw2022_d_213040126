@@ -57,4 +57,8 @@ echo "<hr>";
 echo 10 ==="10";
 
 
+
+// komponen sintaks PHP lain
+echo "tes";
+
 // ? ~ tild, # pound, ^ caret, | pipe, / slash, \back slash
