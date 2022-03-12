@@ -1,3 +1,47 @@
+<!-- latihan 2 dikampus -->
+
+<!-- <?php 
+
+//array multidimensi
+//array dalam array
+
+$array1 = [10, "Adam", true, [1,[2],3]];
+
+print_r($array1);
+echo "<br>";
+
+//mencetak angka 2
+
+echo $array1[3][1][0];
+echo "<hr>";
+
+//matril
+/* 
+1 2 3
+4 5 6 
+7 8 9
+
+*/
+
+$matriks = [[1,2,3],[4,5,6],[7,8,9]];
+
+foreach($matriks as $baris){
+    foreach($baris as $kolom){
+        echo $kolom;
+    }
+    echo "<br>";
+}
+
+
+
+
+
+?> -->
+
+
+
+
+<!-- latihan 2 di video -->
 <?php 
 // pengulangan pada array
 // for / foreach

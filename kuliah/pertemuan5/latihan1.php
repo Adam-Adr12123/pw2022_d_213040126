@@ -1,3 +1,86 @@
+<!-- latihan 1 dikampus -->
+
+<!-- <?php
+// Pertemuan 5- array 
+//array adalah variabel yang dapat menyimpan banyak nilai sekaligus
+
+$hari1= "senin";
+$hari2= "selasa";
+
+
+$bulan1= "januari";
+$bulan2= "februari";
+
+
+// membuat array
+$hari = ["senin","selasa","rabu","kamis","jum'at"]; //array versi baru
+$bulan = array("januari", "februari","maret");
+
+// mencetak array
+// menggunakan index, dimulai dari 0
+echo $hari[0];
+
+echo "<br>";
+
+echo $bulan[2];
+
+echo "<br>";
+// mencetak menggunakan var-dump() atau print_r()
+// hanya untuk debuginag
+
+var_dump($hari);
+
+echo "<br>";
+print_r($bulan);
+
+echo "<hr>";
+
+
+// mencetak untuk user 
+// menggunakan looping
+
+for($i=0; $i< count($hari); $i++){
+    echo $hari[$i];
+    echo "<br>";
+}
+
+
+echo "<br>";
+
+// menggunakan foreach
+// pengulangan khusus array
+
+foreach($bulan as $bln){
+    echo $bln;
+    echo "<br>";
+}
+
+echo "<hr>";
+
+// memanipulasi array
+//menambah 1 element diakhir
+
+$hari[]="sabtu";
+$hari[]="minggu";
+
+print_r($hari);
+
+echo "<br>";
+
+
+$bulan[]="april";
+$bulan[]="mei";
+
+print_r($bulan);
+
+
+
+?> -->
+
+
+
+
+<!-- latihan 1 di video -->
 <?php 
 
 // array
