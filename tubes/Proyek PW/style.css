@@ -1,0 +1,188 @@
+/* navbar */
+.bgnav {
+    background-color: #0a62a9;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+
+}
+
+.logogin {
+    margin-left: 42%;
+}
+.logonav {
+    padding-top: -10px;
+    margin-top: 10;
+}
+/* ultility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 45px;
+}
+
+.nav-link, .navbar-brand, .nav-item {
+    color: white !important;
+    
+}
+
+.jumbotron {
+    
+    color: white;
+    background-image: url(asset/jumbot.jpg);
+    background-color: #0a62a9;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.jumbotron h1{
+    padding-top: 300px;
+    text-shadow: 2px 2px black;
+}
+.linkj{
+    color: white;
+    text-shadow: 2px 2px #0a62a9;
+    
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.atasform{
+    color: #003871;
+}
+
+section {
+    padding: 80px 0px;
+    min-height: 600px;
+    background-color: white;
+    width: 100%;
+}
+
+.dap {
+    padding-top: 50px;
+}
+
+.footext {
+    color: aliceblue;
+}
+
+
+
+/* pdf reporting */
+@media print {
+    .tombol-i {
+        display: none;
+    }
+    .navbarl {
+        display: none;
+    }
+}
+
+
+
+
+.murid-d{
+    
+    min-height: min-content;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.murid-d .prof {
+    width: 50%;
+}
+
+
+
+.table-c {
+    color: white;
+    background-color: #003871;
+}
+.kepala-tabel {
+    border-radius: 50px;
+}
+.konten-m {
+    padding-top: 20px;
+}
+
+
+
+
+
+/* halaman tambah */
+.formulir-d{
+    min-height: min-content;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px, 0px;
+    
+}
+
+
+.formulir{
+    background-color: #0a62a9;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+
+
+.pembatas {
+    padding-bottom: 50px;
+}
+
+
+footer {
+    background-color: gray;
+    height: 100px;
+    padding-top: 40px;
+}
+
+@media (min-width: 992px) { 
+    .nav-link, .navbar-brand, .nav-item {
+        color: white !important;
+        
+    }
+    .dd{
+        color: rgb(136, 136, 136) !important;
+
+    }
+    .navbar-brand {
+        height: 45px;
+        width: 45px;
+    }
+    
+    
+    .nav-link {
+        
+        margin-right: 20px;
+        width: 30;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin : auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -75px;
+        
+    }
+    
+
+    .formulir {
+        min-height: min-content;
+    }
+
+    .data-murid,.data-guru{
+        min-height: min-content;
+        
+    }
+ }
